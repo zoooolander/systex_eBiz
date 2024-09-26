@@ -12,5 +12,14 @@
 <body>
 	<h1>welcome to my spring boot playground</h1> 
 	<p>current time is: <%= SimpleDateFormat.getInstance().format(new Date())%></p>
+	<p>
+		<a href="hello">hello</a>
+	</p>
+	<p>
+		<a href="student">create student</a>
+	</p>
+	<p>
+		<a href="listStudents">list all student</a>
+	</p>
 </body>
 </html>
